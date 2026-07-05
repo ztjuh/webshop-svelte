@@ -1,0 +1,55 @@
+/* src/app.css */
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply text-black bg-gradient-to-r from-rose-500 via-blue-500 to-rose-500;
+    overflow-x: hidden;
+    /* Custom cursor from zkitzo.one */
+    cursor: url('data:image/x-icon;base64,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'), auto;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 hover:bg-blue-600 text-black font-medium py-2 px-4 rounded-lg transition-colors;
+  }
+  .btn-secondary {
+    @apply bg-rose-400 hover:bg-rose-500 text-black font-medium py-2 px-4 rounded-lg transition-colors;
+  }
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+  .card {
+    @apply bg-white/90 backdrop-blur-sm rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow;
+  }
+}
+/* src/app.css - Override browser autofill styles */
+
+/* Chrome, Safari, Edge, Opera */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2) inset !important;
+    -webkit-text-fill-color: white !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-clip: text !important;
+}
+
+/* Firefox */
+input:-moz-autofill {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+}
+
+/* For the blue focus effect you added */
+input:-webkit-autofill:focus {
+    background-color: rgba(59, 130, 246, 0.4) !important; /* blue-400 with opacity */
+    -webkit-box-shadow: 0 0 0 30px rgba(59, 130, 246, 0.4) inset !important;
+}
+
+/* Firefox focus */
+input:-moz-autofill:focus {
+    background-color: rgba(59, 130, 246, 0.4) !important;
+}

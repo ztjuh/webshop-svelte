@@ -1,0 +1,44 @@
+// src/lib/icons.ts
+import {
+    faUser,
+    faUserPlus,
+    faEnvelope,
+    faLock,
+    faRightToBracket,
+    faSpinner,
+    faCircleExclamation,
+    faHouse,
+    faBox,
+    faCartShopping,
+    faCartPlus,
+    faTrash,
+    faCross,
+    faHandsPraying,
+    faStar,
+    faArrowLeft,
+    faHandHoldingHeart,
+    faStore,
+    faRightFromBracket
+} from '@fortawesome/free-solid-svg-icons';
+
+export const icons = {
+    faUser,
+    faUserPlus,
+    faEnvelope,
+    faLock,
+    faRightToBracket,
+    faSpinner,
+    faCircleExclamation,
+    faHouse,
+    faBox,
+    faCartShopping,
+    faCartPlus,
+    faTrash,
+    faCross,
+    faHandsPraying,
+    faStar,
+    faArrowLeft,
+    faHandHoldingHeart,
+    faStore,
+    faRightFromBracket
+};
